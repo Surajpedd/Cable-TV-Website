@@ -1,0 +1,230 @@
+h1{
+font-family: monospace;
+font-size: 40px;
+text-align: center;
+font-style: italic;
+font-weight: bold;
+}
+.inp
+   {
+    font-style: italic;
+    font-family: monospace;
+    font-size:18px;
+    width: 1350px;
+    height: 200px;
+    background: url(picd.jpg);;
+    background-size:cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    bottom:0%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    /*padding: 0px 10px;*/
+    border-radius: 20px;
+    text-align: center;
+    }
+    .inp2
+   {
+    font-style: italic;
+    font-family: monospace;
+    font-size:18px;
+    width: 1350px;
+    height: 200px;
+    background: url(picd.jpg);;
+    background-size:cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    top: 110%;
+    left: 50%;
+    bottom:0%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    /*padding: 0px 10px;*/
+    border-radius: 20px;
+    text-align: center;
+    }
+.tabu {
+width: 50%;
+margin-left:25%; 
+margin-right:25%;
+color:#0a114a ;
+font-family: monospace;
+font-size: 15px;
+text-align: center;
+font-style: italic;
+}
+.inp input[type="text"] {
+  width: 10%;
+}
+.inp2 input[type="text"] {
+  width: 10%;
+}
+table/*, th ,td*/ {
+    border: 1px solid black;
+}
+th {
+background-color: #0a114a;
+color: white;
+}
+tr{background-color: #d4d4d4}
+.inp input[type="submit"]
+    {
+    align-items:center;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #0c2326;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: transform .2s;
+    }
+    .inp input[type="submit"]:hover
+    {
+    cursor: pointer;
+    background:  #3ab1c0;
+    color: #000;
+    transform: scale(1.2);
+    border: 1px solid;
+    }
+    .inp2 input[type="submit"]
+    {
+    align-items:center;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #0c2326;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    transition: transform .2s;
+    }
+    .inp2 input[type="submit"]:hover
+    {
+    cursor: pointer;
+    background:  #3ab1c0;
+    color: #000;
+    transform: scale(1.2);
+    border: 1px solid;
+    }
+    .amt{
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        color: red;
+    }
+   /*starts here*/
+   #profile
+   {
+   padding:50px;
+   border:1px dashed grey;
+   font-size:20px;
+   background-color: #0c2326;
+   color: #fff;
+   font-size: 30px;
+   }
+   #logout
+   {
+   float:right;
+   padding:5px;
+   border:dashed 1px #fff;
+   color:#000;
+   }
+   input[type=button]
+   {
+   width:170px;
+   background-color: #0c2326;
+   color:#fff;
+   border:2px solid;
+   padding:10px;
+   font-size:20px;
+   cursor:pointer;
+   align-items:center;
+   font-family: 'Roboto', sans-serif;
+   transition: transform .2s;
+   }
+   input[type="button"]:hover
+  {
+  cursor: pointer;
+  background: #3ab1c0;
+  color: #000;
+  transform: scale(1.25);
+  }
+   body
+    {
+        background: #213c40;
+
+        color:#05d3fc;
+    }
+
+   /* footer */
+footer, footer a {
+    color: white;
+}
+footer {
+    display: block;
+    overflow: hidden;
+    background-color: #0c2326;
+}
+footer a:hover {
+    color: #4fcaff;
+}
+footer .container > ul {
+    overflow: hidden;
+    margin: 30px 0;
+    padding-left: 0;
+}
+footer .container > ul li {
+    float: left;
+    padding-right: 25px;
+}
+footer .item h4 {
+    margin-bottom: 20px
+}
+footer .item p.address {
+    line-height: 1.2;
+    font-size: 16px;
+}
+footer .item ul {
+    padding-left: 0;
+}
+footer .item ul li {
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+footer .date p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+footer .item form {
+    overflow: hidden;
+}
+footer .item form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+}
+footer .item form input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    line-height: 4px;
+    background-color: #ef44f8;
+    border: none;
+    float: right;
+    color: #FFF;
+    padding: 0
+}
+footer .copyright {
+    padding: 15px 0;
+}
+footer .copyright p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
