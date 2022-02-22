@@ -94,5 +94,6 @@ function change_log(){
         </form>
         <br><br>
         </center>
+<?php ?>
 </body>
 </html>
